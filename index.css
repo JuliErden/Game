@@ -1,0 +1,75 @@
+.header {
+    width: 100%;
+    background-color: rgb(11, 119, 83);
+    color: white;
+    padding: 20px;
+}
+a:hover {
+    text-decoration: none;
+    color: crimson;
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.menu-item {
+    list-style: none;
+}
+.menu-link {
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+}
+.container {
+    max-width: 1000px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.banner-title, .banner-description {
+    text-align: center;
+    color: white;
+}
+.banner-title {
+    font-size: 50px;
+}
+.banner-section {
+    background: url(img/banner-bg.jpg);
+    padding: 100px 0;
+}
+.cards-section {
+    padding: 50px;
+}
+.cards-title, .cards-description {
+    text-align: center;
+}
+.card {
+    padding: 25px;
+    margin: 25px;
+    width: 25%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 2px 7px 0px rgb(71, 85, 110);
+}
+.card-link {
+    text-decoration: none;
+    color: white;
+}
+.card-button {
+    text-align: center;
+    background-color: teal;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.card-title, .card-description {
+    margin: 5px;
+}
+.footer {
+    background: url(img/footer-bg.jpg);
+    padding: 100px 0px;
+}
+.copyright {
+    color: white;
+}
